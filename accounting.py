@@ -13,3 +13,7 @@ while True:
 print(products)
 print(products[0][0])
 print(products[1][1])
+print(products[2][1])
+for p in products:
+	print(p)
+	print(p[0], 'unit price is', p[1])
